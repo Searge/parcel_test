@@ -12,8 +12,10 @@ class Hero {
   }
 
   set name(newName) {
-    this.name = newName; 
+    this.name = newName;
   }
 }
 
 const h = new Hero('Mango');
+
+console.log(h.name);
