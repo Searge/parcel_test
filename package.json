@@ -10,7 +10,7 @@
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
     "predeploy": "parcel build src/*.html --public-url /parcel-project-template/",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "webpack"
@@ -29,7 +29,6 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "prettier": "2.3.2",
-    "push-dir": "^0.4.1",
     "sass": "^1.35.1",
     "shortid": "^2.2.16"
   }
